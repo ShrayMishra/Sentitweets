@@ -1,9 +1,7 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jan 14 13:25:36 2019
 
-@author: SHRAY
+"""PROJECT: TWITTER SEENTIMENT ANALYSIS
+   Author: SHRAY MISHRA
+   LIBRARIES USED: PANDAS, NUMPY, MATPLOTLIB, SEABORN, TEXTBLOB, TWEEPY
 """
 
 '''import pip
