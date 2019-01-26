@@ -7,9 +7,9 @@ Created on Thu Jan 10 17:12:36 2019
 """
 
 # Consume:
-consumer_key    = 'rYQMGUAopLvwkw0MK5pfK16jX'
-consumer_secret = 'o7tXwrgSw1HfHC8YiOoqWV9InhyoiarLkeeIDkiuxpaswwvJet'
+consumer_key    = 'put in your consumer key from API'
+consumer_secret = 'put in your consumer secret from API'
 
 # Access:
-access_token = '75015558-EW8hTbROP85aqMk1Aj0C1cZvjUWmSLgbmz8NQtZ5Y'
-access_secret = '56bM8V1IJ8RNnDdv5FYCLfyhuYlRkVn7uD2AIKrhfVyb3'
+access_token = 'put in your access token from API'
+access_secret = 'put in your access secret from API'
