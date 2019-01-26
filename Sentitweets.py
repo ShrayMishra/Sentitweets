@@ -136,20 +136,6 @@ ts = pd.Series(data = twitter_data['len'].values, index=twitter_data['Date'])
 ts_like = pd.Series(data = twitter_data['Likes'].values, index = twitter_data['Date'])
 ts_RT = pd.Series(data = twitter_data['RTs'].values, index= twitter_data['Date'])
 
-# Plotting the lenght with time:
-
-ts.plot (figsize= (20,6), color='b', label = 'Time Series Analysis of Twwet Length');
-
-# Likes and Retweets Plots:
-
-ts_like.plot(figsize= (20,6), label= "Likes", legend=True)
-ts_RT.plot(figsize=(20,6), label = "Retweets", legend=True);
-
-# Plotting the medium share in pie chart:
-
-chart = pd.Series(col, index = medium, name = 'Medium')
-chart.plot.pie(fontsize=15, autopct='%.4f', figsize=(10, 10));
-
 
 
 
@@ -198,4 +184,20 @@ negative = [ tweet for position, tweet in enumerate(twitter_data['Tweets']) if t
 print(f"Positive tweet percentage: {len(positive)*100/len(twitter_data['Tweets'])}%")
 print(f"Neutral tweet percentage: {len(neutral)*100/len(twitter_data['Tweets'])}%")
 print(f"Negative tweet percentage: {len(negative)*100/len(twitter_data['Tweets'])}%")
+
+# Graphical representation of the outputs      
+      
+# Plotting the lenght with time:
+
+ts.plot (figsize= (20,6), color='b', label = 'Time Series Analysis of Twwet Length');
+
+# Likes and Retweets Plots:
+
+ts_like.plot(figsize= (20,6), label= "Likes", legend=True)
+ts_RT.plot(figsize=(20,6), label = "Retweets", legend=True);
+
+# Plotting the medium share in pie chart:
+
+chart = pd.Series(col, index = medium, name = 'Medium')
+chart.plot.pie(fontsize=15, autopct='%.4f', figsize=(10, 10));
 
