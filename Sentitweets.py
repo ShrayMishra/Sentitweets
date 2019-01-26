@@ -195,12 +195,7 @@ negative = [ tweet for position, tweet in enumerate(twitter_data['Tweets']) if t
 
 # Sentiment Analysis through Percentage:
 
-<<<<<<< HEAD:Sentitweets.py
 print(f"Positive tweet percentage: {len(positive)*100/len(twitter_data['Tweets'])}%")
 print(f"Neutral tweet percentage: {len(neutral)*100/len(twitter_data['Tweets'])}%")
 print(f"Negative tweet percentage: {len(negative)*100/len(twitter_data['Tweets'])}%")
-=======
-print(f"Percentage of positive tweets: {len(positive)*100/len(twitter_data['Tweets'])}%")
-print(f"Percentage of neutral tweets: {len(neutral)*100/len(twitter_data['Tweets'])}%")
-print(f"Percentage de negative tweets: {len(negative)*100/len(twitter_data['Tweets'])}%")
->>>>>>> 230f3871480673ef79ba38428a4b4d34611aab39:ILLSentiAnalysis.py
+
